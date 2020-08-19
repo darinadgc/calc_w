@@ -184,3 +184,12 @@ input::-webkit-inner-spin-button {
 .bank.active {
     border-color: #7871CEAD;
 }
+
+@media screen and (max-width: 768px) {
+	.calculator-content-body-left {
+		width: 100%;
+	}
+	.calculator-content-body {
+    flex-direction: column;
+}
+}
